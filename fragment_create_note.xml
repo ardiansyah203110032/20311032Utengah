@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ColorOrangeNote"
+    #memberikan baground warna orange pada sebuah halaman selanjutnya.
     tools:context=".MainActivity">
+    #koneksivitas pada sebuah halaman 
 
     <ImageView
         android:id="@+id/imgBack"
@@ -41,6 +43,7 @@
         android:ellipsize="end"
         android:fontFamily="@font/manrope_bold"
         android:hint="Judul catatan Harian"
+       #memberikan sebuah judul catatan berlabel tebal
         android:inputType="text"
         android:maxLines="1"
         android:padding="@dimen/_10sdp"
@@ -88,9 +91,11 @@
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/_5sdp"
             android:background="@color/ColorBlue" />
+        memberikan sebuah baground berwarna biru
 
         <EditText
             android:id="@+id/etNoteSubTitle"
+        #memberikan sebuah akses untuk memberikan sebuah judul
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -167,6 +172,7 @@
             android:padding="@dimen/_10sdp"
             android:text="http://"
             android:textColor="@color/ColorWhite"
+          #memberikan sebuah warna teks berwarna putih
             android:textColorHint="@color/ColorGray"
             android:textSize="@dimen/_12ssp" />
         <ImageView
@@ -186,6 +192,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:gravity="end"
             android:orientation="horizontal">
+          #memberikan sebuah akses untuk menampilkan tampilan potret horizontal
 
 
             <Button
@@ -205,10 +212,13 @@
                 android:fontFamily="@font/manrope_bold"
                 android:background="@color/colorAccent"
                 android:text="@string/ok"
+               #memberikan sebuah tombol untuk menyimpan sebuah data
                 android:textAllCaps="false"
+               #pada kode tersebut akan diproses apabila nilai tersebut benar
                 android:textSize="@dimen/_12ssp"
                 android:layout_marginStart="@dimen/_5sdp"
                 android:textColor="@color/ColorWhite"
+               #memberikan sebuah tampilan dengan memberikan warna putih.
                 android:id="@+id/btnOk"/>
 
 
