@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ColorBlueNote"
+    #adalah sebuah kode program untuk menampilkan warna biru
     tools:context=".MainActivity">
+    #adalah sebuah program untuk melanjutkan ke halaman berikutnya
 
     <TextView
         android:id="@+id/tv1"
@@ -20,6 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:fontFamily="@font/manrope_bold"
         android:textColor="@color/ColorWhite"/>
+    #menggunakan sebuah tulisan text dengan warna putih
 
     <SearchView
         android:layout_width="match_parent"
@@ -28,6 +31,7 @@
         android:searchIcon="@drawable/ic_search"
         android:background="@drawable/background"
         android:queryHint="Pencarian catatan"
+        #sebuah judul untuk menginputkan pencatatan
         android:theme="@style/ThemeOverlay.search"
         android:iconifiedByDefault="false"
         app:layout_constraintTop_toBottomOf="@id/tv1"
