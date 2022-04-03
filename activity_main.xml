@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ColorBlue"
+   #kode program untuk memberikan sebuah tampilan baground berwarna biru
     tools:context=".MainActivity">
+   #sebuah kode program untuk melanjutkan ketampilan berikutnyaa.
 
 
     <FrameLayout
