@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    #menetapkan struktur data aplikasi dan kode untuk mengakses
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ColorBlueNote"
@@ -15,6 +16,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15ssp"
         android:text="Catatan Harian anak Kos"
+        #adalah sebuah kode program untuk memberi sebuah judul text
         android:paddingStart="@dimen/_10sdp"
         android:paddingTop="@dimen/_10sdp"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,6 +32,7 @@
         android:layout_margin="@dimen/_10sdp"
         android:searchIcon="@drawable/ic_search"
         android:background="@drawable/background"
+       #memberikan akses ke sebuah baground
         android:queryHint="Pencarian catatan"
         #sebuah judul untuk menginputkan pencatatan
         android:theme="@style/ThemeOverlay.search"
@@ -56,15 +59,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@color/colorPrimary"
+        #memberikan akses kesebuah tampilan baground disaat catatan tersebut disimpan.
         android:padding="@dimen/_10sdp"
         android:visibility="invisible"
         android:orientation="horizontal">
+       #tampilan yang ditampilkan berbentuk potret horizontal
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_tick"
             app:tint="@color/ColorWhite" />
+        #memberikan sebuah warna putih
 
         <ImageView
             android:layout_width="wrap_content"
